@@ -28,7 +28,7 @@ app = FastAPI()
 origins = [
     "http://127.0.0.1:5500",
     "http://localhost:8000",
-    "https://productivityassistant.vercel.app/", 
+    "https://productivityassistant.vercel.app", # CORRIGIDO
     "https://produtividade-assistant.onrender.com"
 ]
 
